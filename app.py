@@ -17,15 +17,20 @@ wiki=WikipediaQueryRun(api_wrapper=api_wrapper)
 search=DuckDuckGoSearchRun(name="Search")
 
 
-st.title("🔎 LangChain - Chat with search")
+st.title("🔎 Search - Chat with Thanh")
 """
-In this example, we're using `StreamlitCallbackHandler` to display the thoughts and actions of an agent in an interactive Streamlit app.
-Try more LangChain 🤝 Streamlit Agent examples at [github.com/langchain-ai/streamlit-agent](https://github.com/langchain-ai/streamlit-agent).
+Hello may thang phong cach !
 """
 
+# """
+# In this example, we're using `StreamlitCallbackHandler` to display the thoughts and actions of an agent in an interactive Streamlit app.
+# Try more LangChain 🤝 Streamlit Agent examples at [github.com/langchain-ai/streamlit-agent](https://github.com/langchain-ai/streamlit-agent).
+# """
+
 ## Sidebar for settings
-st.sidebar.title("Settings")
-api_key=st.sidebar.text_input("Enter your Groq API Key:",type="password")
+st.sidebar.title("Phong cach, phong cach, phong cach")
+# api_key=st.sidebar.text_input("Enter your Groq API Key:",type="password")
+api_key = st.secrets["GROQ_API_KEY"]
 
 if "messages" not in st.session_state:
     st.session_state["messages"]=[
