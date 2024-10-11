@@ -28,7 +28,7 @@ Hello may thang phong cach !
 # """
 
 ## Sidebar for settings
-st.sidebar.title("Phong cach, phong cach, phong cach")
+st.sidebar.title("This is SearchGPT developed by ThanhChi")
 # api_key=st.sidebar.text_input("Enter your Groq API Key:",type="password")
 api_key = st.secrets["GROQ_API_KEY"]
 
