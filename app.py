@@ -25,7 +25,7 @@ Try more LangChain 🤝 Streamlit Agent examples at [github.com/langchain-ai/str
 """
 
 ## Sidebar for settings
-st.sidebar.title("This is SearchGPT developed by ThanhChi ")
+st.sidebar.title("This is SearchGPT developed by ThanhChi")
 # api_key=st.sidebar.text_input("Enter your Groq API Key:",type="password")
 api_key = st.secrets["GROQ_API_KEY"]
 
