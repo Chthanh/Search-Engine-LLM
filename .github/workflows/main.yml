@@ -14,8 +14,11 @@ jobs:
         with:
           fetch-depth: 0
           lfs: true
-      - name: Pull changes from remote
-        run: git pull origin main
+      - name: Fetch changes from remote
+        run: git fetch origin
+
+      - name: Merge changes
+        run: git merge origin/main
         
       - name: Push to hub
         env:
