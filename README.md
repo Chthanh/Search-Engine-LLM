@@ -5,5 +5,5 @@ sdk: streamlit
 emoji: 🚀
 colorFrom: green
 colorTo: blue
-short_description: Search Engine with LL
+short_description: Search Engine with LLM
 ---
